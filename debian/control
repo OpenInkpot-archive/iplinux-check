@@ -1,0 +1,30 @@
+Source: check
+Section: core
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Build-Depends: debhelper (>= 7), automake, libtool, subversion
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), automake, libtool, subversion
+Priority: optional
+Standards-Version: 3.8.3
+
+Package: libcheck0
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: xx
+ xx
+
+Package: libcheck-dbg
+Section: debug
+Priority: optional
+Architecture: any
+Depends: libcheck0 (= ${binary:Version})
+Description: xx
+ xx
+
+Package: libcheck-dev
+Section: libdevel
+Priority: optional
+Architecture: any
+Depends: libcheck0 (= ${binary:Version})
+Description: xx
+ xx
